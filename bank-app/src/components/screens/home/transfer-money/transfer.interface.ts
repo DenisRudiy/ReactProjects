@@ -1,4 +1,4 @@
 export interface ITransferData {
 	card: number
-	amount: number
+	balance: number
 }

@@ -1,28 +1,28 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "John Smith",
-			"balance": 8640,
-			"card": 2342235633451224
-		},
-		{
-			"id": 2,
-			"name": "Amanda",
-			"balance": 4620,
-			"card": 2137940289134791
-		},
-		{
-			"id": 3,
-			"name": "Joseph Jostar",
-			"balance": 12500,
-			"card": 2365987265982328
-		},
-		{
-			"id": 4,
-			"name": "Dio Brando",
-			"balance": 150600,
-			"card": 1238281034857592
-		}
-	]
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "balance": 8640,
+      "card": 2342235633451224
+    },
+    {
+      "id": 2,
+      "name": "Amanda",
+      "balance": 4620,
+      "card": 2137940289134791
+    },
+    {
+      "id": 3,
+      "name": "Joseph Jostar",
+      "balance": 14350,
+      "card": 2365987265982328
+    },
+    {
+      "id": 4,
+      "name": "Dio Brando",
+      "balance": 3150,
+      "card": 1238281034857592
+    }
+  ]
 }
