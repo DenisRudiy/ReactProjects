@@ -1,8 +1,10 @@
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 import { FC } from 'react'
-import { user } from './Home'
+import { useProfile } from '../../../hooks/useProfile'
 
 const Balance: FC = () => {
+	const { user } = useProfile()
+
 	return (
 		<Box mt={4} pos='relative' width={'50%'} m='auto'>
 			<Flex
@@ -12,7 +14,7 @@ const Balance: FC = () => {
 				zIndex={2}
 				pos='relative'
 			>
-				<Heading fontSize='5xl'>$ {user.balance}</Heading>
+				<Heading fontSize='5xl'>$ {user?.balance}</Heading>
 				<Text fontSize='xl' color='whiteAlpha.500'>
 					Balance
 				</Text>
